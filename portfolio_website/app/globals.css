@@ -3,7 +3,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: bg-base-200;
 }
 
 @theme inline {
@@ -15,7 +15,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: bg-base-200;
     --foreground: #ededed;
   }
 }
@@ -23,5 +23,16 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Average;
+  font-family: 'Eurostile', sans-serif;
+}
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('/fonts/eurostile.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-eurostile {
+  font-family: 'Eurostile', sans-serif;
 }
