@@ -1,10 +1,10 @@
 import ContactButtonWithModal from "./components/ContactButtonWithModal";
-import ScrollLayout from "./components/ScrollLayout";
+import HomePage from "./components/HomePage";
 
 export default function Home() {
   return (
     <main>
-      <ScrollLayout />
+      <HomePage />
     </main>
   );
 }
