@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef } from "react";
+import ContactButtonWithModal from "./ContactButtonWithModal";
 
 const ScrollLayout = () => {
     const scrollTargetRef = useRef<HTMLDivElement | null>(null);
@@ -39,6 +40,9 @@ const ScrollLayout = () => {
                     </div>
                 </div>
             </div>
+            <div>
+                <ContactButtonWithModal/>
+            </div>
 
             {/* Right scrollable section full width, no padding */}
             <div
@@ -63,6 +67,7 @@ const ScrollLayout = () => {
                         </p>
                     </div>
                 </div>
+                
             </div>
         </div>
 
