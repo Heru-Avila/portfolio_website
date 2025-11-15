@@ -18,7 +18,7 @@ const CustomNavbar = () => {
                 </div>
             </div>
             <div className="navbar-center">
-                <a className="btn btn-ghost text-3xl">Heru Avila</a>
+                <a className="btn btn-ghost text-3xl" href="#">Heru Avila</a>
             </div>
             <div className="navbar-end">
                 <button className="btn btn-ghost btn-circle">
