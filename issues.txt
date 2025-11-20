@@ -1,0 +1,3 @@
+This text file is for current issues:
+
+ +-- When zooming out of the main page, the margin pictures don't stay flush with the center
